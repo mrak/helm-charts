@@ -131,3 +131,10 @@ existingSecretName: ""
 #   - name: HTTPS_PROXY
 #     value: "https://example.com"
 extraEnvVars: []
+
+# An array to add extra environment variables
+# Example:
+# extraEnvFrom:
+#   - secretRef:
+#       name: vouch-secret-env
+extraEnvFrom: []
